@@ -1,0 +1,70 @@
+/* IMAGES */
+
+
+
+
+
+/* BASE STYLES
+---------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    background-color: hotpink;
+    color: #eaeaea;
+}
+
+
+
+
+
+/* TYPOGRAPHY
+---------------------------------------------- */
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 24pt;
+    margin: 4em auto;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5em;
+}
+
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+figure {
+    margin: 1em;
+    padding: 1em;
+}
+
+/* IMAGES
+---------------------------------------------- */
+
+img {
+    max-width: 100%;
+    image: 1000px;
+
+}
+
+
+
+/* GALLERY GRID
+---------------------------------------------- */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2em;
+    grid-column-gap: 2em;
+
+    max-width: 1000px;
+    margin: auto;
+}
